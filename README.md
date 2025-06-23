@@ -17,7 +17,7 @@ Aurikka is a stunning and modern jewelry shop frontend built with React.js. It�
 
 📦 Reusable Components – Modular and scalable codebase for future expansion.
 
-##🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 React.js – Component-based UI
 
