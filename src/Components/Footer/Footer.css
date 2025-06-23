@@ -1,0 +1,39 @@
+/* Parent container must allow flex */
+.navbar_bottom_right {
+    display: flex;
+    justify-content: flex-end;
+    /* aligns to the right */
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    box-sizing: border-box;
+}
+
+.navbar_bottom_right p {
+    font-size: 18px;
+    color: #636270;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+.navbar_bottom_right a {
+    color: #272343;
+    text-decoration: none;
+    transition: text-decoration 0.2s ease;
+}
+
+.navbar_bottom_right a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .navbar_bottom_right {
+        justify-content: center;
+        /* center align on small screens */
+        text-align: center;
+        padding: 8px 12px;
+    }
+}
