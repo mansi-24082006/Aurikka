@@ -1,0 +1,30 @@
+.nav-link {
+    font-size: 25px;
+    color: #090909;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-transform: capitalize;
+    margin-right: 20px;
+    text-decoration: none;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+.nav-link::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    height: 2px;
+    width: 0%;
+    background-color: rgb(5, 5, 33);
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    color: rgb(5, 5, 33);
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
