@@ -1,0 +1,80 @@
+.header {
+    width: 100%;
+    height: 100vh;
+    background-image: url("../../assets/banner.png");
+    /* ✅ Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.45);
+    /* ✅ Optional dark overlay */
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.header-contents {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    color: #ffffff;
+    max-width: 700px;
+    padding: 0 20px;
+}
+
+.header-contents h2 {
+    font-size: 46px;
+    font-weight: 400;
+    margin-bottom: 20px;
+    color: #f0a313;
+}
+
+.header-contents p {
+    font-size: 25px;
+    margin-bottom: 30px;
+    width: 100%;
+    font-weight: 400;
+    color: #f1efef;
+}
+
+.header-contents button {
+    background-color: #e4c682;
+    color: black;
+    padding: 16px 30px;
+    border-radius: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+}
+
+.header-contents button:hover {
+    padding: 18px 35px;
+}
+
+/* ✅ Responsive Styles */
+@media (max-width: 768px) {
+    .header-contents h2 {
+        font-size: 32px;
+    }
+
+    .header-contents p {
+        font-size: 16px;
+    }
+
+    .header-contents button {
+        padding: 10px 22px;
+        font-size: 14px;
+    }
+}
