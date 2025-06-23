@@ -1,0 +1,268 @@
+/* tailwind css  */
+@import "tailwindcss";
+@plugin "daisyui";
+
+/* google font inter  */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+@theme {
+  --font-primary: "Poppins", sans-serif;
+}
+
+.slider_container > .slick-slider > .slick-prev,
+.slider_container > .slick-slider > .slick-next {
+  z-index: 5 !important;
+}
+
+.slick-prev {
+  left: -95px !important;
+}
+
+.slick-next {
+  right: -95px !important;
+}
+
+.slider_container > .slick-slider > .slick-prev:before,
+.slider_container > .slick-slider > .slick-next:before {
+  font-family: "slick";
+  font-size: 52px !important;
+  line-height: 1;
+  opacity: 0.75;
+  color: #040e49 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider_container > .slick-slider > .slick-dots {
+  position: absolute;
+  bottom: 100px !important;
+  display: block;
+  width: 40%;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-align: center;
+}
+
+.slider_container > .slick-slider > .slick-dots li button:before {
+  font-family: "slick";
+  font-size: 22px !important;
+  line-height: 20px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  content: "•";
+  text-align: center;
+  opacity: 0.25;
+  color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slider_container
+  > .slick-slider
+  > .slick-dots
+  > li.slick-active
+  button:before {
+  color: #072231 !important;
+}
+
+.delivery_component {
+  margin-top: -4rem;
+  position: relative;
+  z-index: 5;
+}
+
+.features_slider > .slick-slider > .slick-prev:before,
+.features_slider > .slick-slider > .slick-next:before {
+  font-size: 39px !important;
+  color: #007580;
+}
+
+.client_say_description {
+  position: relative;
+}
+
+.client_say_description::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: -27px;
+  width: 3px;
+  height: 100%;
+  background-color: #007580;
+}
+.brand_item {
+  cursor: pointer;
+  display: flex;
+  width: 180px;
+  /* or whatever fixed size you prefer */
+  height: 150px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  /* optional for nice rounding */
+  background-color: #fff;
+  /* optional background */
+  box-shadow: 10px 10px 8px rgba(0, 0, 0, 0.05);
+  /* subtle shadow */
+}
+.brand_item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.brand_item:hover {
+  border: 1px solid white;
+  width: 200px;
+  height: 160px;
+}
+/* Container & Card Padding */
+.features_slider .p-4 {
+  padding: 1rem;
+}
+
+/* Image container: fixed height & relative for badge */
+.feature_image {
+  height: 500px;
+  /* Adjust as needed */
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  border-radius: 12px;
+  background-color: #f9f9f9;
+}
+
+/* Image inside the container: cover and centered */
+.feature_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+/* Status Badge */
+.feature_image .absolute {
+  font-size: 20px;
+  background-color: #f5ac3e;
+  color: #000000;
+  padding: 4px 10px;
+  border-radius: 10px;
+}
+
+/* Product Title & Cart Icon Container */
+.feature_content {
+  padding-top: 0.5rem;
+}
+
+/* Title Styling */
+.feature_content h4 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #ee9805;
+  margin-bottom: 0.5rem;
+}
+
+/* Price Display */
+.feature_content p {
+  font-size: 30px;
+  font-weight: 600;
+  color: #131313;
+}
+
+/* Original Price */
+.feature_content p span {
+  font-size: 29px;
+  text-decoration: line-through;
+  color: gray;
+}
+/* Container padding */
+.slider-container {
+  padding: 2rem 1rem;
+}
+
+/* Slide item layout */
+.banner_slide_item {
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 2rem 1rem;
+  min-height: 500px;
+  background-color: #f9f9f9;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+/* Text section */
+.banner_text {
+  text-align: center;
+  max-width: 600px;
+}
+
+.banner_text p {
+  font-size: 1rem;
+  color: #636270;
+  font-weight: 500;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner_text h3 {
+  font-size: 2.5rem;
+  color: #272343;
+  font-weight: 800;
+  line-height: 1.3;
+  margin-bottom: 1.5rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Button styling */
+.banner_text button {
+  padding: 0.75rem 1.5rem;
+  background-color: #029fae;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.3s ease;
+  text-transform: capitalize;
+  font-family: 'Inter', sans-serif;
+}
+
+.banner_text button:hover {
+  background-color: #027f8d;
+}
+
+/* Image section */
+.banner_image img {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* Responsive layout for large screens */
+@media (min-width: 1024px) {
+  .banner_slide_item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+  }
+
+  .banner_text {
+    text-align: left;
+  }
+
+  .banner_text h3 {
+    font-size: 3.5rem;
+    max-width: 600px;
+  }
+}
