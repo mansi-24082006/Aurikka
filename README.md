@@ -1,12 +1,35 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+💎 Aurikka - Jewelry E-commerce Frontend
+Aurikka is a stunning and modern jewelry shop frontend built with React.js. It’s designed to offer an elegant and user-friendly shopping experience for luxury jewelry lovers. ✨
 
-Currently, two official plugins are available:
+## 🌟 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+💍 Stylish Product Display – Showcase rings, necklaces, earrings, and more with elegant UI cards.
 
-## Expanding the ESLint configuration
+🛒 Interactive Cart UI – Add, remove, and view items in the cart.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+🔍 Product Filtering & Categories – Browse products by type, collection, or popularity.
+
+🎞️ Carousel / Banner Sections – Highlight latest offers or featured collections.
+
+📩 Newsletter Section – Invite users to subscribe for updates.
+
+📦 Reusable Components – Modular and scalable codebase for future expansion.
+
+##🛠️ Tech Stack
+
+React.js – Component-based UI
+
+HTML5 + CSS3
+
+Tailwind CSS / DaisyUI – Fast, customizable styling
+
+React Router – For seamless navigation
+
+Lucide React Icons – Beautiful and lightweight icons
+
+Slick Carousel / Swiper.js – For product sliders and testimonials
+
+live project link =  [project]()
+
